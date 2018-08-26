@@ -107,7 +107,7 @@ namespace Shooting_Game
             x = r.Next(20, 195);
             y = r.Next(130, 150);
             pictureBox1.Location = new Point(x, y);
-            if (miss_shots>=6)
+            if (miss_shots >=6)
             {
                 timer1.Stop();
                 label4.Text = "Game Over";
